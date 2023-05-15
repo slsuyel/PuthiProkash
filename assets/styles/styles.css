@@ -82,3 +82,18 @@ img.search-icon {
   .book-cover{
     width: 200px;
   }
+
+  p.book-badge {
+    background: #7D60A9;
+    width: 80px;
+    left: -20px;
+    top: 5px;
+    border-radius: 4px;
+}
+  p.book-badge2 {
+    background: #7D60A9;
+    width: 125px;
+    left: 25px;
+    top: 4px;
+    border-radius: 4px;
+}
