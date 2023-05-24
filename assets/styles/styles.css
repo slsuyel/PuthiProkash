@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali&display=swap");
-.top-header {
+.main-bg {
   background-color: #f2e9d9;
 }
 * {
@@ -142,10 +142,62 @@ img.client-logo {
   -moz-box-shadow: -1px 1px 9px 6px rgba(241, 224, 195, 1);
 }
 
-
 .footer {
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/850/045/small/old-book-opening-free-photo.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 300px;
+}
+
+/* Category */
+.category-logo {
+  width: 100px;
+  height: 100px;
+}
+.category-logo:hover {
+  border: 3px solid #ec5b40;
+  box-shadow: 0px 0px 27px -3px rgba(236, 91, 64, 0.75);
+  -webkit-box-shadow: 0px 0px 27px -3px rgba(236, 91, 64, 0.75);
+  -moz-box-shadow: 0px 0px 27px -3px rgba(236, 91, 64, 0.75);
+}
+
+.category-filter {
+  -webkit-box-shadow: 0px 0px 10px 9px rgba(246, 212, 210, 0.85);
+  -moz-box-shadow: 0px 0px 10px 9px rgba(246, 212, 210, 0.85);
+  box-shadow: 0px 0px 10px 9px rgba(246, 212, 210, 0.85);
+}
+
+.category-book {
+  background-color: #eaeaea;
+}
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.category-box {
+  box-shadow: 0px 0px 7px 12px rgba(250, 207, 208, 1);
+  -webkit-box-shadow: 0px 0px 7px 12px rgba(250, 207, 208, 1);
+  -moz-box-shadow: 0px 0px 7px 12px rgba(250, 207, 208, 1);
+}
+.discount-text.position-absolute {
+  top: -28px;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.cart-views-btn button{
+font-size: 10px;
+}
+
+/*  */
+.cart-views-btn{
+  display: none;
+}
+
+.category-book:hover{
+  
+}
+
+.cart-views-btn{
+  display: none;
 }
