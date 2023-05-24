@@ -12,88 +12,140 @@ img.cart-icon {
   font-size: 14px;
 }
 
-.border-left-right{
+.border-left-right {
   border-left: 2px solid black;
   border-right: 2px solid black;
 }
-.max-width-search-nav{
-    max-width: 550px;
+.max-width-search-nav {
+  max-width: 550px;
 }
 img.search-icon {
-    width: 53px;
+  width: 53px;
 }
-.home{
+.home {
   background-color: white;
-  border: 2px solid #1C98CE;
+  border: 2px solid #1c98ce;
   border-bottom: 0;
   text-align: center;
   border-radius: 10px 10px 0px 0px;
-  color: #1C98CE !important;
+  color: #1c98ce !important;
 }
-.active-link{
+.active-link {
   border-bottom: 2px solid red;
 }
 
-.social-container{
-    position: absolute;
-    top: 50%;
-   left: 0;
-    transform: translateY(-50%);
-    padding: 20px;
-    text-align: left;
-    width: 259px;
+.social-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 20px;
+  text-align: left;
+  width: 259px;
 }
 
 .carousel-item .text-container {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translateY(-50%);
-    padding: 20px;
-    text-align: right;
-    width: 259px;
-  }
- .banner-details{
-    background-color: #EDE78E;
- }
- .click-btn{
-    background-color: #BFD851;
-    width: 85%;
- }
-
- /* social */
-
- .fa-facebook {
-    background: #3B5998;
-    color: white;
-    transition: all 0.3s ease;
-    width: 40px;
-  }
-  .fa-facebook:hover{
-    width: 100px;
-    transform: scale(1.2);
-  }
-
-  /* পুথিপ্রকাশ কার্য সমগ */
-
-  .btn-details{
-    border: 1px solid salmon;
-  }
-  .book-cover{
-    width: 200px;
-  }
-
-  p.book-badge {
-    background: #7D60A9;
-    width: 80px;
-    left: -20px;
-    top: 5px;
-    border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  padding: 20px;
+  text-align: right;
+  width: 259px;
 }
-  p.book-badge2 {
-    background: #7D60A9;
-    width: 125px;
-    left: 25px;
-    top: 4px;
-    border-radius: 4px;
+.banner-details {
+  background-color: #ede78e;
+}
+.click-btn {
+  background-color: #bfd851;
+  width: 85%;
+}
+
+/* social */
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  transition: all 0.3s ease;
+  width: 40px;
+}
+.fa-facebook:hover {
+  width: 100px;
+  transform: scale(1.2);
+}
+
+/* পুথিপ্রকাশ কার্য সমগ */
+
+.btn-details {
+  border: 1px solid salmon;
+}
+
+p.book-badge {
+  background: #7d60a9;
+  width: 80px;
+  left: -20px;
+  top: 5px;
+  border-radius: 4px;
+}
+p.book-badge2 {
+  background: #7d60a9;
+  width: 125px;
+  left: 25px;
+  top: 4px;
+  border-radius: 4px;
+}
+.line {
+  width: 100px;
+  margin: auto;
+  margin-top: -8px;
+  opacity: 1;
+  border: 2px solid #ef5940 !important;
+}
+
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.book-details {
+  position: relative;
+}
+
+.book-cover {
+  width: 135px;
+  transition: width 0.3s ease;
+}
+
+.book-details:hover .book-cover {
+  width: 180px;
+}
+
+.book-category-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+img.client-logo {
+  width: 130px;
+  height: 130px;
+}
+
+.client {
+  box-shadow: -1px 1px 9px 6px rgba(241, 224, 195, 1);
+  -webkit-box-shadow: -1px 1px 9px 6px rgba(241, 224, 195, 1);
+  -moz-box-shadow: -1px 1px 9px 6px rgba(241, 224, 195, 1);
+}
+
+
+.footer {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/850/045/small/old-book-opening-free-photo.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 300px;
 }
