@@ -22,13 +22,13 @@ img.cart-icon {
 img.search-icon {
   width: 53px;
 }
-.home {
-  background-color: white;
-  border: 2px solid #1c98ce;
+.navbar-link {
+  border: 2px solid;
+ 
   border-bottom: 0;
   text-align: center;
   border-radius: 10px 10px 0px 0px;
-  color: #1c98ce !important;
+ color: dark;
 }
 .active-link {
   border-bottom: 2px solid red;
@@ -238,6 +238,10 @@ img.client-logo {
   width: 260px;
   height: 221px;
 }
+
+
+
+
 
 
 /* @media screen  */
