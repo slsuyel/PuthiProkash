@@ -103,6 +103,7 @@ p.book-badge2 {
 }
 
 .book-container {
+  min-height: 300px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -240,16 +241,53 @@ img.client-logo {
 }
 
 
-
+/*  */
 
 
 
 /* @media screen  */
 
 @media screen and (max-width: 570px) {
+
+  .banner-details {
+    font-size: 12px;
+}
+
+
   .work-on-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 83px;
   }
+  .book-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .book-details {
+  margin-bottom: 20px;
 }
+.client-conatiner{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 15px;
+}
+.mt-5 pt-5 client-area{
+  margin-top: 450px;
+}
+img.client-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.footer{
+  background-size: contain;
+}
+.footer div img{
+display: none;
+}
+.footer-nab-brand{
+  display: block;
+}
+}
+/*  */
+
+
