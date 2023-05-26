@@ -69,10 +69,7 @@
       </nav>
       <!-- menu 2 -->
 
-      <nav
-        class="navbar navbar-expand-md navbar-light"
-        style="background-color: #cbcbcb"
-      >
+      <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
           <button
             class="mb-2 navbar-toggler"
@@ -89,29 +86,54 @@
             class="collapse navbar-collapse justify-content-center"
             id="navbarNav"
           >
-            <ul class="navbar-nav max-width-search-nav">
-              <li class="nav-item">
-                <a class="mx-1 nav-link pb-1 home px-3" href="#">হোম </a>
+            <ul class="navbar-nav max-width-search-nav position-relative">
+              <!-- --------- -->
+              <li class="nav-item dropdown">
+                <a
+                  class="navbar-link pb-1 text-dark nav-link"
+                  href="#"
+                  style="border-color: #99cc66"
+                >
+                  নতুন প্রকাশ
+                </a>
               </li>
+
+              <!--  -->
               <li class="nav-item px-2">
-                <a class="active-link mx-1 nav-link pb-1 text-dark" href="#"
-                  >নতুন প্রকাশ</a
+                <a
+                  class="navbar-link mx-1 nav-link pb-1 text-dark"
+                  href="#"
+                  style="border-color: #ff0099"
+                  >বই ঘর</a
                 >
               </li>
               <li class="nav-item px-2">
-                <a class="mx-1 nav-link pb-1 text-dark" href="#">বই ঘর</a>
+                <a
+                  class="navbar-link mx-1 nav-link pb-1 text-dark"
+                  href="#"
+                  style="border-color: #1c98ce"
+                  >কিডস জোন</a
+                >
               </li>
               <li class="nav-item px-2">
-                <a class="mx-1 nav-link pb-1 text-dark" href="#">কিডস জোন</a>
+                <a
+                  class="navbar-link mx-1 nav-link pb-1 text-dark"
+                  href="#"
+                  style="border-color: #99cc66"
+                  >লেখক</a
+                >
               </li>
               <li class="nav-item px-2">
-                <a class="mx-1 nav-link pb-1 text-dark" href="#">লেখক</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="mx-1 nav-link pb-1 text-dark" href="#"
+                <a
+                  class="navbar-link mx-1 nav-link pb-1 text-dark"
+                  href="#"
+                  style="border-color: #ff0099"
                   >মাল্টিমিডিয়া</a
                 >
               </li>
+              <!--  -->
+
+              <!--  -->
             </ul>
           </div>
         </div>
@@ -423,7 +445,7 @@
         <!--  -->
       </section>
       <!-- নতুন সংস্করণ -->
-      <!-- <section class="container">
+      <section class="container">
         <h2 class="mt-3 text-center">নতুন সংস্করণ</h2>
         <p class="mx-auto text-center">
           জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ হয়ে
@@ -432,108 +454,55 @@
           হাতে মুঠো বেঁধে। মানুষ আসবার পূর্বেই জীবসৃষ্টিযজ্ঞে প্রকৃতির
           ভূরিব্যয়ের পালা শেষ হয়ে এসেছে।
         </p>
-      </section> -->
 
-      <!-- <div class="row container mx-auto">
-        <div class="col-6 col-lg-2">
-          <div class="card-body position-relative">
-            <div class="overlay position-absolute"></div>
-            <p class="text-white text-center position-absolute book-badge">
-              গল্প
-            </p>
+        <div class="book-container text-center mb-5">
+          <div class="position-relative book-details">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm33lv0W92j2lTEfjP-AkuRKY1z7vPlKfYbQ&usqp=CAU"
               alt=""
               class="img-fluid book-cover"
               srcset=""
             />
-            <div class="text-center">
-              <p class="book-name mb-0">ফক্সি জাম্প</p>
-              <p class="book-version mb-0">সংঙ্করণ-১</p>
-              <p class="book-price mb-0">১০০ টাকা</p>
-            </div>
+            <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
-        </div>
-
-        <div class="col-6 col-lg-2">
-          <div class="card-body position-relative">
-            <div class="overlay position-absolute"></div>
-            <p class="text-white text-center position-absolute book-badge">
-              গল্প
-            </p>
+          <div class="position-relative book-details">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm33lv0W92j2lTEfjP-AkuRKY1z7vPlKfYbQ&usqp=CAU"
               alt=""
               class="img-fluid book-cover"
               srcset=""
             />
-            <div class="text-center">
-              <p class="book-name mb-0">ফক্সি জাম্প</p>
-              <p class="book-version mb-0">সংঙ্করণ-১</p>
-              <p class="book-price mb-0">১০০ টাকা</p>
-            </div>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
-        </div>
-
-        <div class="col-12 col-lg-4 text-center">
-          <div class="card-body position-relative">
-            <div class="overlay position-absolute"></div>
-            <p class="text-white text-center position-absolute book-badge2">
-              গল্প
-            </p>
+          <div class="position-relative book-details">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm33lv0W92j2lTEfjP-AkuRKY1z7vPlKfYbQ&usqp=CAU"
               alt=""
               class="img-fluid book-cover"
               srcset=""
             />
-            <div class="text-center">
-              <p class="book-name mb-0">ফক্সি জাম্প</p>
-              <p class="book-version mb-0">সংঙ্করণ-১</p>
-              <p class="book-price mb-0">১০০ টাকা</p>
-            </div>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
-        </div>
-
-        <div class="col-6 col-lg-2">
-          <div class="card-body position-relative">
-            <div class="overlay position-absolute"></div>
-            <p class="text-white text-center position-absolute book-badge">
-              গল্প
-            </p>
+          <div class="position-relative book-details">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm33lv0W92j2lTEfjP-AkuRKY1z7vPlKfYbQ&usqp=CAU"
               alt=""
               class="img-fluid book-cover"
               srcset=""
             />
-            <div class="text-center">
-              <p class="book-name mb-0">ফক্সি জাম্প</p>
-              <p class="book-version mb-0">সংঙ্করণ-১</p>
-              <p class="book-price mb-0">১০০ টাকা</p>
-            </div>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
-        </div>
-        <div class="col-6 col-lg-2">
-          <div class="card-body position-relative">
-            <div class="overlay position-absolute"></div>
-            <p class="text-white text-center position-absolute book-badge">
-              গল্প
-            </p>
+          <div class="position-relative book-details">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm33lv0W92j2lTEfjP-AkuRKY1z7vPlKfYbQ&usqp=CAU"
               alt=""
               class="img-fluid book-cover"
               srcset=""
             />
-            <div class="text-center">
-              <p class="book-name mb-0">ফক্সি জাম্প</p>
-              <p class="book-version mb-0">সংঙ্করণ-১</p>
-              <p class="book-price mb-0">১০০ টাকা</p>
-            </div>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
         </div>
-      </div> -->
+      </section>
 
       <section class="container my-5">
         <div>
@@ -557,7 +526,8 @@
               srcset=""
             />
             <p
-              class="bg-secondary ms-3 text-danger text-white w-75 book-category-name"
+              class="ms-3 text-danger text-white w-75 book-category-name"
+              style="background-color: #a5a5a5eb"
             >
               সাহিত্য
             </p>
@@ -569,9 +539,7 @@
               class="img-fluid book-cover"
               srcset=""
             />
-            <p class="bg-secondary ms-3 text-white w-75 book-category-name">
-              সাহিত্য
-            </p>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
           <div class="position-relative book-details">
             <img
@@ -580,9 +548,7 @@
               class="img-fluid book-cover"
               srcset=""
             />
-            <p class="bg-secondary ms-3 text-white w-75 book-category-name">
-              সাহিত্য
-            </p>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
           <div class="position-relative book-details">
             <img
@@ -591,9 +557,7 @@
               class="img-fluid book-cover"
               srcset=""
             />
-            <p class="bg-secondary ms-3 text-white w-75 book-category-name">
-              সাহিত্য
-            </p>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
           <div class="position-relative book-details">
             <img
@@ -602,9 +566,7 @@
               class="img-fluid book-cover"
               srcset=""
             />
-            <p class="bg-secondary ms-3 text-white w-75 book-category-name">
-              সাহিত্য
-            </p>
+              <p  class="ms-3 text-danger text-white w-75 book-badge position-absolute"  >    সাহিত্য   </p>
           </div>
         </div>
       </section>
@@ -616,7 +578,7 @@
           <hr class="line" />
 
           <div
-            class="client-conatiner container d-lg-flex justify-content-around my-4"
+            class="client-conatiner container d-lg-flex justify-content-around my-4 gap-3"
           >
             <div class="border-3 client p-1 mx-auto">
               <img
@@ -692,7 +654,7 @@
             id="navbarNav"
           >
             <ul class="navbar-nav max-width-search-nav">
-              <li class="nav-item">
+              <li class="nav-item"></li>
               <li class="nav-item px-2">
                 <a class="mx-1 nav-link pb-1 text-dark" href="#">নতুন প্রকাশ</a>
               </li>
